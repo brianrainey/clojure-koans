@@ -5,5 +5,6 @@
   :dev-dependencies [[lein-koan "0.1.2"]]
   :profiles {:dev {:dependencies [[lein-koan "0.1.2"]]}}
   :repl-options {:init-ns user}
-  :plugins [[lein-koan "0.1.2"]]
+  :plugins [[lein-koan "0.1.2"], 
+            [cider/cider-nrepl "0.7.0-SNAPSHOT"]]
   :main koan-engine.runner/exec)
